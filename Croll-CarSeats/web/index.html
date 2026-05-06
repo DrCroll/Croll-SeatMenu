@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Seats</title>
+</head>
+<body>
+    <div id="root" class="hidden">
+        <div class="panel">
+            <header class="panel-header">
+                <span id="ui-title" class="title"></span>
+                <button type="button" id="btn-close" class="icon-btn" aria-label="" title="">×</button>
+            </header>
+            <p class="hint">
+                <span id="hint-before"></span><kbd id="kbd-esc"></kbd><span id="hint-after"></span>
+            </p>
+            <ul id="seat-list" class="seat-list"></ul>
+            <footer class="panel-footer">
+                <button type="button" id="btn-refresh" class="text-btn"></button>
+            </footer>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
